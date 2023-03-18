@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="scripts.js"></script>
+    <link rel="icon" type="image/x-icon" href="./icons/pawprint.svg" />
+    <title>Catswill | The way of the Cat</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="_" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="/index.html">
+          <img src="./icons/pawprint.svg" class="img-thumbnail rounded me-2" alt="Paw Icon" width="40" height="32" />
+          <span class="fs-4 hover-orange">Catswill</span>
+        </a>
+
+        <ul class="nav nav-pills align-items-center">
+          <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="./memes.html" class="nav-link">Memes</a></li>
+          <li class="nav-item"><a href="./breeds.html" class="nav-link">Breeds</a></li>
+          <li class="nav-item"><a href="./folklore.html" class="nav-link">Folklore</a></li>
+        </ul>
+        <button onclick="play_sound('sounds/meow.m4a')" type="button" class="btn btn-outline-dark" id="edit-img">
+          <img src="https://cdn-icons-png.flaticon.com/512/1818/1818401.png" alt="Image of a cat" height="30" />
+        </button>
+      </header>
+    </div>
+
+    <div class="container">
+      <main class="px-5">
+        <h1 class="margin-bottom-small">Welcome to <span class="hover-orange">Catswill</span>, the ultimate destination for cat lovers everywhere!</h1>
+        <p class="lead margin-bottom-small">A source of fun <span class="hover-orange">CAT</span>ntent.</p>
+        <div class="margin-bottom border-bottom">
+          <img class="indent_img" src="./images/cat-homepage-eat.jpg" alt="A curious kitten asks food" width="615" />
+          <figure>
+            <blockquote class="blockquote"><em>"Serve me food you filthy human."</em></blockquote>
+            <figcaption class="blockquote-footer">Literally every <span class="hover-pink">kotto</span> the in <cite title="your future cat">world</cite></figcaption>
+          </figure>
+        </div>
+        <div class="margin-bottom">
+          <h3 class="margin-bottom-small"><em>Are you ready for furry fun and meowy joy?</em></h3>
+          <p>Here, you'll find everything you need to celebrate the joy and humor of our feline friends.</p>
+          <p>Our extensive collection of cat memes is sure to make you laugh and smile, featuring everything from silly kittens to regal cats in ridiculous poses.</p>
+          <p>
+            If you're looking to learn more about different cat breeds, check out our [<a class="text-dark text-decoration-none" href="./breeds.html"><span class="hover-orange">Breeds</span></a
+            >] section, where you'll find detailed information and adorable pictures of all your favorite feline varieties.
+          </p>
+          <p>
+            And for those who love myths and legends, our [<a class="text-dark text-decoration-none" href="./folklore.html"><span class="hover-orange">Folklore</span></a
+            >] section explores the rich history and symbolism of cats in cultures around the world.
+          </p>
+          <p>So whether you're a lifelong cat lover or just discovering the magic of feline memes, we've got something for everyone here at <span class="hover-orange">Catswill</span>. So come on in, grab a cup of catnip tea, and join us on this delightful journey through the world of cats!</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">© 2023 Maksym Nazarenko</span>
+        </div>
+        <a href="#_" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"><img src="./icons/pawprint.svg" class="img-thumbnail rounded me-2" alt="Paw Icon" width="40" height="32" /></a>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/maks-n"><img src="./icons/github-mark.svg" width="24" height="24" alt="GitHub" /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
